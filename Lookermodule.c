@@ -34,7 +34,7 @@
  * SUCH DAMAGE.
  */
 
- /* 1999-02-22 Arkadiusz MiÂ¶kiewicz <misiek@pld.ORG.PL>
+ /* 1999-02-22 Arkadiusz Mi¶kiewicz <misiek@pld.ORG.PL>
   * - added Native Language Support
   */
 
@@ -341,7 +341,7 @@ static PyTypeObject Lookertype = {
 	(printfunc)0,
 	(getattrfunc)looker_getattr,
 	(setattrfunc)0,
-	0,
+	(cmpfunc)0,
 	(reprfunc)0,
 	0, /* as number */
 	0, /* as sequence */
